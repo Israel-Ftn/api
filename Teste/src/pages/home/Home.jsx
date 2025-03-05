@@ -34,7 +34,7 @@ function Home() {
                   <img src={`${pathImg}${filmes.poster_path}`} alt="" />
                 </strong>
                 <div className="description">
-                  <p>{filmes.overview}</p>
+                  <p className="sobre">{filmes.overview}</p>
                   <div className="classes">
                   <p className="vote_average">
                     Avaliação: {filmes.vote_average}/10
